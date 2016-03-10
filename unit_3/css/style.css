@@ -1,0 +1,44 @@
+body 
+{
+	color: #371DAD;
+	background-color: #CFBF97;
+	text-align: center;
+}
+
+h1 
+{
+	color: #CFBF97;
+	background-color: #371DAD;
+}
+
+#story
+{
+	text-align: justify;
+	font-style: italic;
+}
+
+#slogan
+{
+	font-weight: bold;
+}
+
+h3
+{
+	text-align: left;
+}
+
+ul
+{
+	text-align: left;
+}
+
+li
+{
+	text-align: left;
+}
+
+#contact
+{
+	font-size: 12px;
+	font-family: sans-serif;
+}
