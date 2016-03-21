@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
+body {
+	background-color: #CFBF97;
+	color: #371DAD;
+	font-size: 16px;
+    text-align: center;
+}
+
+a {
+	background-color: #371DAD;
+	color: #CFBF97;
+	margin: .5em;
+	padding: .25em;
+	text-decoration: none;
+}
+
+#splash {
+    background: url(../images/Rex.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+#slogan {
+	color: #FFF;
+	font-family: 'Rock Salt', cursive;
+	font-size: 1.5em;
+}
+
+#aside {
+	color: #FFF;
+	font-style: italic;
+	margin-top: 30em;
+	text-align: right;
+
+}
+
+#story {
+	text-align: justify;
+	font-style: italic;
+	padding-left: 210px;
+	padding-right: 210px;
+}
+
+#packages {
+	text-align: left;
+}
+
+#note {
+	font-style: italic;
+	font-size: .5em;
+}
+
+#disclaimers {
+	text-align: left;
+}
+
+#prints {
+	text-align: left;
+}
+
+#contact {
+	background-color: #371DAD;
+	color: #CFBF97;
+	text-align: left;
+}
+
+#patti {
+	color: #FF0000;
+	text-decoration: none;
+}

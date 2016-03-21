@@ -1,9 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
 body {
 	color: #371DAD;
 	background-color: #CFBF97;
 	text-align: center;
 }
-section#splash {
+#splash {
 	background: url(../images/Rex.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -23,7 +25,9 @@ h1 {
 }
 
 #slogan {
-	font-weight: bold;
+	font-family: 'Rock Salt', cursive;
+	color: #FFF;
+	font-size: 36px;
 }
 
 h3 {
