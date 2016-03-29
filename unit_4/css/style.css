@@ -7,7 +7,7 @@ body {
 	text-align: center;
 }
 
-a {
+nav a {
 	background-color: #371DAD;
 	color: #CFBF97;
 	margin: .5em;
@@ -31,7 +31,8 @@ p+p {
 #slogan {
 	color: #FFF;
 	font-family: 'Rock Salt', cursive;
-	font-size: 1.5em;
+	font-size: 2em;
+	padding-top: 8em;
 }
 
 #aside {
