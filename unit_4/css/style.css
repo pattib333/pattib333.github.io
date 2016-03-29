@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #CFBF97;
 	color: #371DAD;
 	font-size: 16px;
-    text-align: center;
+	text-align: center;
 }
 
 a {
@@ -14,7 +14,12 @@ a {
 	padding: .25em;
 	text-decoration: none;
 }
-
+h1,h2,h3,h4 {
+	margin-bottom:.5em;
+}
+p+p {
+	margin-top:1em;
+}
 #splash {
     background: url(../images/Rex.jpg);
 	background-position: center;
