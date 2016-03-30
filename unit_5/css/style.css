@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+/*a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+	font-weight: bold;
+	padding: 5px;
+	text-align: right;
+
+}
+nav a:hover {
+	background-color: #FFF;
+	color: #A9A9A9;
+}
+
+h1,h2,h3,h4 {
+	margin-bottom: .5em;
+}
+p+p {
+	margin-top: 1em;
+}
+#splash {
+    background: url(../images/Rex.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+#slogan {
+	color: #FFF;
+	font-family: 'Rock Salt', cursive;
+	font-size: 2em;
+	margin: auto; 
+	padding-top: 8em;
+}
+
+blockquote {
+	color: #FFF;
+	font-style: italic;
+	margin-top: 300px;
+	padding: 10px;
+	text-align: right;
+}
+#story {
+	text-align: justify;
+	font-style: italic;
+	padding-left: 210px;
+	padding-right: 210px;
+}
+
+#packages {
+	text-align: left;
+}
+
+#note {
+	font-style: italic;
+	font-size: .5em;
+}
+
+#disclaimers {
+	text-align: left;
+}
+
+#prints {
+	text-align: left;
+}
+
+footer {
+	background-color: #371DAD;
+	color: #CFBF97;
+	text-align: left;
+}
+
+#patti {
+	color: #FF0000;
+	text-decoration: none;
+}*/
