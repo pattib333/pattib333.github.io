@@ -7,7 +7,9 @@
 
 body {
 	background-color: #F5DEB3;
+	font-family: 'Arial', sans-serif;
 	font-size: 18px;
+	color: #330000;
 }
 
 header {
@@ -22,30 +24,48 @@ nav {
 nav a {
 	color: #FFF;
 	padding: 0 2em;
-	font-size: 1em;
+	font-family: 'Rock Salt', sans-serif;
+	font-size: .5em;
 	font-weight: bold;
-	padding: 5px;
+	text-decoration: none;
+	letter-spacing:.2em;
+	margin: 2em;
+	padding: .5em;
 	text-align: right;
 	text-transform: uppercase;
 
 }
+
 nav a:hover {
 	background-color: #FFF;
 	color: #8C7853;
 }
 
+a {
+	font-size: .5em;
+	color: #8C7853;
+	text-decoration: none;
+	text-align: right;
+}
+
 h1 {
 	color: #FFF;
-	font-family: 'Rock Salt', cursive;
+	font-family: 'Rock Salt', sans-serif;
 	font-size: 2em;
 	padding-top: 6em;
+	text-align: center;
 }
 
 h2 {
 	color: #8C7853;
-	margin-top: 1em;
+	font-family: 'Rock Salt', sans-serif;
+	letter-spacing:.2em;
+	margin-top: .5em;
 	margin-left: .5em;
-	margin-bottom: .5em;
+}
+
+h3 {
+	font-family: sans-serif;
 }
 
 p {
@@ -60,8 +80,10 @@ footer {
 
 blockquote {
 	color: #FFF;
-	font-style: italic;
-	margin-top: 12em;
+	font-family: 'Rock Salt', sans-serif;
+	font-size: .75em;
+	letter-spacing:.1em;
+	margin-top: 14em;
 	padding: 1em;
 	text-align: right;
 }
@@ -90,10 +112,6 @@ img {
 	clear:both;
 }
 
-#wrapper {
-
-}
-
 #lander {
 	background:url(../images/rex.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
@@ -117,14 +135,9 @@ img {
 	margin:auto;
 }
 
-#packages h3 {
-	font-family: "Times New Roman", Georgia, Serif;
-}
-
 #disclaimers {
 	border: solid .15em;
 	margin: 1em 2em;
-	
 	background-color: #FBA16C;
 
 }
@@ -156,5 +169,66 @@ img {
 	padding-right: 1em;
 	padding-bottom: 2em;
 }
+
+#prints a{
+	color: #FFEFD8;
+}
+
+#patti {
+	font-size: 1em;
+
+}
+
+@media screen and (max-width: 880px) {
+	#packages{
+		font-size: 16px;
+		width: 90%;
+		padding: 0 0;
+	}
+	h1 {
+
+	}
+}
+
+@media screen and (max-width: 688px) {
+	.package {
+		float: none;
+		height: auto;
+		width:auto;
+	}
+}
+
+@media screen and (max-width: 549px) {
+	header blockquote{
+		display:none;
+	}
+	nav a {
+		display: block;
+		text-align: center;
+		padding: 1em;
+		margin: 2px;
+	}
+	h1 {
+		padding-top:2em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+	#story {
+		display:none;
+	}
+	#disclaimers {
+		width:100%;
+		margin:auto;
+		font-size: 16px;
+	}
+	#prints {
+		width:100%;
+		margin:auto;
+		font-size: 16px;
+	}
+}
+
 
 
